@@ -10,5 +10,5 @@ class Solution:
             res += freq
             
             f[sum_tillnow] = f.get(sum_tillnow, 0) + 1
-
+            
         return res
